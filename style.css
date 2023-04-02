@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* header {
+    display: grid;
+    grid-template-columns: 80% 30%;
+} */
+
+.grid {
+    background-color: #67e8f9;
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.sidebar {
+    background-color: #298fd0;
+    color: white;
+}
+
+.sidebar svg {
+    fill: white;
+    height: 50px;
+    width: 50px;
+}
+
+.logoText {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 40px 40px;
+}
+
+.logoText h1 {
+    font-size: 25px;
+}
+
+.iconText {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.iconText p {
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.iconText svg {
+    height: 20px;
+    width: 20px;
+}
+
+.navItemsBottom {
+    padding-top: 5rem;
+}
+
+
+.main {
+    background-color: #e1e7ef;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header,
+.projectCard,
+.annCardContainer,
+.trendCardContainer {
+    box-shadow: 5px 3px 3px #d6dbe1;
+}
+
+.header {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    grid-template-rows: 45% 50%;
+}
+
+.tL-header {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+
+.tL-header input {
+    background-color: #e1e7ef;
+    border: 1px solid #e1e7ef;
+    border-radius: 20px;
+    width: 80%;
+    height: 30px;
+}
+
+
+.tL-header svg {
+    width: 30px;
+}
+
+.tR-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.tR-header img {
+    width: 20%;
+}
+
+.tR-header svg {
+    width: 25px;
+}
+
+.bL-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 20px;
+}
+
+.bL-header img {
+    width: 8%;
+    margin: 10px;
+}
+
+.bL-headerGreeting p {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.bL-headerGreeting h5 {
+    font-weight: bolder;
+}
+
+.bR-header {
+    margin-left: -9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 24rem;
+}
+
+.bR-header button {
+    background-color: #298fd0;
+    border-radius: 10px;
+    height: 40%;
+    width: 30%;
+    color: white;
+    border: none;
+}
+
+.content {
+    padding-top: 2vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+
+
+.projectTitle {
+    margin: .5rem 0rem .5rem 1rem;
+}
+
+.projectCardGrid {
+    display: grid;
+    grid-template-columns: 46% 50%;
+    grid-template-rows: 50% 50% 50%;
+    gap: 10px;
+    height: 55%;
+    margin-left: 1rem;
+}
+
+.projectCard {
+    border-left: 8px solid #efb030;
+    background-color: white;
+    font-size: medium;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem 2rem 0rem 2rem;
+}
+
+.projectCard h3 {
+    font-weight: bolder;
+}
+
+.linksCard {
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    justify-content: space-between;
+    width: 100px;
+    height: 20px;
+}
+
+.rt-content {
+    display: grid;
+    grid-template-rows: 50%;
+    margin: .5rem 0rem .5rem 0rem;
+
+}
+
+.annCardContainer {
+    margin: .5rem 0rem 0rem 0rem;
+    background-color: #fffffe;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.annList {
+    list-style-type: none;
+    padding: .5rem 3rem 0rem 3rem;
+    font-size: small;
+}
+
+hr {
+    margin: 1rem 0rem 0rem 0rem;
+    color: grey;
+}
+
+.trendTitle {
+    padding-top: .5rem;
+}
+
+.trendCardContainer {
+    margin: 0.5rem 0rem 0rem 0rem;
+    background-color: #fffffe;
+    height: 28vh;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendList {
+    list-style-type: none;
+    padding: 1rem 3rem 0rem 3rem;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    height: 4.5vh;
+}
+
+.trendCardContainer img {
+    width: 40px;
+}
+
+.trendText {
+    margin-left: 1rem;
+}
